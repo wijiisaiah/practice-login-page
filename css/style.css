@@ -1,0 +1,164 @@
+.container {
+    padding-top: 15%;
+}
+
+.header,
+.to-register {
+    text-align: center;
+}
+/* LOGIN FORM */
+
+.login-form {
+    margin-top: 5rem;
+    text-align: left;
+}
+
+.btn-sign-in {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: rgba(0, 170, 237, 0.5);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 170, 237, 0.5);
+    transition: 0.5s;
+}
+
+.btn-sign-in:hover {
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgba(0, 170, 237, 0.5);
+    transition: 0.5s;
+}
+
+.login-form input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+}
+
+.password-reset {
+    font-size: 0.8rem;
+    float: right;
+    padding: 0 1rem;
+}
+#login-page {
+    height: 100%;
+    width: 100%;
+}
+
+/* DIVIDER */
+
+.divider-container {
+
+}
+
+
+.divider {
+    top: 10%;
+    bottom: 10%;
+    position: absolute;
+    content:"";
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.0);
+    left: 50%;
+    
+    border-left: 1px solid rgba(0, 0, 0, 0.5)
+}
+
+.divider p {
+    display: none;
+}
+
+/* SOCIAL BUTTONS */
+
+.social-buttons {
+    padding: 7.4rem 2rem;
+}
+
+.btn-google,
+.btn-facebook {
+    margin-bottom: 2rem;
+    border-radius: 0;
+}
+
+.fa .fa-google-plus,
+.fa .fa-facebook {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+/* SPANS */
+
+.blue-link {
+    cursor: pointer;
+    color: rgba(0, 170, 237, 0.5);
+}
+
+@media only screen and (max-width: 575px) {
+
+    .login-form {
+        margin-top: 2rem;
+    }
+
+    .divider-content {
+        top: -0.88rem;
+        position: relative;
+        padding: 0 1rem 0 1rem;
+        left: 45%;
+        background: white;
+
+    }
+
+    .divider p {
+        display: inline-block;
+        position: absolute;
+        margin-left: -1.5rem;
+        margin-top: 1.1rem;
+        padding: 0 1rem;
+        background: white;
+    }
+    
+    .divider-container {
+        align-content: center;
+    }
+
+    .divider {
+        position: relative;
+        text-align: center;
+        content: "or";
+        color: black;
+        width: 93%;
+        height: 2rem;
+        background-color: rgba(0, 0, 0, 0);
+        border-bottom: 1px solid black;
+        left: 0;
+        margin: 1rem;
+    }
+
+    .social-buttons {
+        padding: 1rem 2rem;
+        float: right;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -9,12 +9,13 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css " href="css/style.css">
         <link rel="stylesheet" type="text/css " href="css/animate.css">
+        <link rel="stylesheet" type="text/css " href="css/bootstrap-social.css">
 
         <title>First Website</title>
         <!--Scripts-->
         <script src="js/jquery-3.2.0.min.js "></script>
         <script src="js/tether.min.js "></script>
-		
+
         <script src="js/bootstrap.min.js "></script>
         <script src="js/main.js "></script>
         <script src="js/jquery.waypoints.min.js"></script>
@@ -22,7 +23,42 @@
     </head>
     <body>
 
-    <h1></h1>
+
+
+        <section id="login-page">
+            <div class="container">
+                <h1 class="header">Welcome to Mazdis</h1>
+                <p class="lead to-register">Don't have an account? Register <a href="#">Here</a></p>
+                <div class="row">
+                    <div class="login-form col-sm-5">
+                        <form action="" class="form-horizontal">
+                            <label id="email-label" for="email" class="col-sm-2 col-form-label"></label>
+                            <div class="col-sm-12">
+                                <input #email type="text" class="form-control" id="email" name="email" placeholder="Email" value="">
+                            </div>
+                            <label for="password" class="col-sm-2 col-form-label"></label>
+                            <div class="col-sm-12">
+                                <input #password type="password" class="form-control" id="password" name="password" placeholder="Password"
+                                       value="">
+                            </div>
+                            <div class="password-reset">Forgot your <span class="blue-link">password?</span></div>
+                            <button type="button" id="btn-sign-in" class="btn btn-sign-in" (keyup.enter)="login()" (click)="login()">Sign in</button>
+
+                        </form>
+                    </div>
+                    <div class="divider-container col-sm-2">
+                        <div class="divider">
+                            <p>OR</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 social-buttons">
+                        <button class="btn btn-block btn-google" (click)="googleSignIn()"><i class="fa fa-google-plus"></i></button>
+                        <button class="btn btn-block btn-facebook" (click)="facebookSignIn()"><i class="fa fa-facebook"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
     </body>
 
